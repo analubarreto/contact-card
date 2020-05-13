@@ -1,4 +1,4 @@
-# mi_card
+# Contact Card
 
 ![Preview](https://github.com/analubarreto/contact-card/blob/master/images/preview.png)
 
