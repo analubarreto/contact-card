@@ -1,6 +1,8 @@
 # mi_card
 
-A new Flutter project.
+![Preview](https://github.com/analubarreto/contact-card/blob/master/images/preview.png)
+
+A contact card right in your phone.
 
 ## Getting Started
 
