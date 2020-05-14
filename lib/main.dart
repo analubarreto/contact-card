@@ -37,44 +37,40 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 6.0
                 ),
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              // Cards don't have a padding property
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
+                child: Padding(
+                  padding: EdgeInsets.all(1.0),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.phone,
                       color: Colors.pink[900]
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      '+55 61 99182-8555',
+                    title: Text(
+                      '+55 61 99182-855',
                       style: TextStyle(
                         color: Colors.pink[900],
                         fontFamily: 'Roboto-Condensed',
-                        fontSize: 20.0
-                      ),
+                        fontSize: 20.0,
+                        letterSpacing: 1
+                      )
                     )
-                  ],
-                ),
+                  )
+                )
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
+                child: Padding(
+                  padding: EdgeInsets.all(1.0),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.email,
                       color: Colors.pink[900]
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
+                    title: Text(
                       'analuibm@gmail.com',
                       style: TextStyle(
                         color: Colors.pink[900],
@@ -83,33 +79,29 @@ class MyApp extends StatelessWidget {
                         letterSpacing: 1
                       )
                     )
-                  ],
+                  )
                 )
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
+                child: Padding(
+                  padding: EdgeInsets.all(1.0),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.account_circle,
                       color: Colors.pink[900]
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
+                    title: Text(
                       'github.com/analubarreto',
                       style: TextStyle(
                         color: Colors.pink[900],
                         fontFamily: 'Roboto-Condensed',
                         fontSize: 20.0,
-                        letterSpacing: 1,
-                        decoration: TextDecoration.underline
+                        letterSpacing: 1
                       )
                     )
-                  ],
+                  )
                 )
               )
             ],
