@@ -1,6 +1,6 @@
 # Contact Card
 
-![Preview](https://github.com/analubarreto/contact-card/blob/master/images/preview.png)
+** Another preview will be put here... **
 
 A contact card right in your phone.
 
